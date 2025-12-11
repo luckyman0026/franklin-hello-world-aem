@@ -1,6 +1,5 @@
 import {
   buildBlock,
-  loadBlocks,
   loadHeader,
   loadFooter,
   decorateButtons,
@@ -88,7 +87,6 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
-  loadBlocks(main);   // load block
 }
 
 /**
