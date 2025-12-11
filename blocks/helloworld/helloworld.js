@@ -1,3 +1,4 @@
-export default function helloworld(block) {
-  block.innerHTML = '<p>Hello World from Franklin Block!</p>';
+export default function decorate(block) {
+  // Replace whatever is inside the block with our own content
+  block.innerHTML = '<p>Hello World from Franklin (EDS)!</p>';
 }
